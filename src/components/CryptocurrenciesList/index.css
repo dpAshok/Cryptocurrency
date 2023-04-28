@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.bg_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  margin: 30px auto;
+}
+.image_container {
+  width: 80%;
+}
+.image_container img {
+  width: 100%;
+}
+.currencyListCard {
+  width: 100%;
+  border: 2px solid #00e7ff;
+}
+.coinType {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  background: #034f58;
+  align-items: center;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.coinType p {
+  margin: 0px 20px;
+}
+.money {
+  display: flex;
+}
+.money p {
+  margin: 0px 25px;
+}

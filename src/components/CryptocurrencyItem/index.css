@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: greenyellow; */
+  padding: 2% 2%;
+  color: #fff;
+  width: 100%;
+}
+.coinTypeContainer {
+  display: flex;
+  align-items: center;
+}
+.moneyContainer {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: right;
+  /* width: 300px; */
+  /* margin: 0px; */
+}
+
+.usd {
+  margin: 0px 25px 0px 0px;
+  text-align: right;
+  /* width: 300px; */
+}
+
+.euro {
+  margin: 0px 25px 0px 0px;
+  text-align: right;
+}
+.logo {
+  width: 30px;
+  margin: 0px 20px;
+}

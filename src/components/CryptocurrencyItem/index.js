@@ -18,9 +18,6 @@ class CryptocurrencyItem extends Component {
           <p className="euro">{euroValue}</p>
         </div>
       </li>
-      //   {/* <li>
-      //     <h1>hello</h1>
-      //   </li> */}
     )
   }
 }
